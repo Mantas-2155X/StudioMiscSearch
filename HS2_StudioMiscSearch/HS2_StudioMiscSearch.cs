@@ -11,7 +11,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 namespace HS2_StudioMiscSearch
-{
+{ 
     [BepInProcess("StudioNEOV2")]
     [BepInPlugin(nameof(HS2_StudioMiscSearch), nameof(HS2_StudioMiscSearch), VERSION)]
     public class HS2_StudioMiscSearch : BaseUnityPlugin
