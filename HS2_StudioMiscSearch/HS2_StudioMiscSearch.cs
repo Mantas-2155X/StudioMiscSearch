@@ -112,11 +112,11 @@ namespace HS2_StudioMiscSearch
                                                                                                                            
                 inputFieldComp.text = "";                                                                               
                                                                                                                            
-                inputFieldComp.onValueChanged = null;                                                                   
+                inputFieldComp.onEndEdit = null;                                                                   
                 inputFieldComp.onValidateInput = null;                                                                  
-                                                                                                                           
-                inputFieldComp.onEndEdit = new InputField.SubmitEvent();
-                inputFieldComp.onEndEdit.AddListener(delegate { Search(inputFieldComp); });
+                
+                inputFieldComp.onValueChanged = new InputField.OnChangeEvent();
+                inputFieldComp.onValueChanged.AddListener(delegate { Search(inputFieldComp); });
             }
         }
 
