@@ -20,4 +20,4 @@ This plugin adds search bars to various Studio lists.
 * Needs https://github.com/BepInEx/BepInEx for the plugin.
 
 **Credits:**
-* Thanks to Esahc the Elf Hunter#2171 for placing the commission and allowing this to be public for the community
+* Thanks to Esahc the Elf Hunter#2171 and GetDownCrazy#8508 for placing the commission and allowing this to be public for the community
