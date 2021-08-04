@@ -16,5 +16,8 @@ This plugin adds search bars to various Studio lists.
 **Installation:**  
 * Unzip `GAME_StudioMiscSearch.zip` into your game directory. If done correctly, in `BepInEx/plugins/2155X/` you should see `GAME_UnlockPlayerHeight.dll`  
 
+**Notes:**
+* Needs https://github.com/BepInEx/BepInEx for the plugin.
+
 **Credits:**
 * Thanks to Esahc the Elf Hunter#2171 for placing the commission and allowing this to be public for the community
