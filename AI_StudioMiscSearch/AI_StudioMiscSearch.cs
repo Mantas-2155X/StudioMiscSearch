@@ -16,7 +16,7 @@ namespace AI_StudioMiscSearch
     [BepInPlugin(nameof(AI_StudioMiscSearch), nameof(AI_StudioMiscSearch), VERSION)]
     public class AI_StudioMiscSearch : BaseUnityPlugin
     {
-        public const string VERSION = "1.0.0";
+        public const string VERSION = "1.1.0";
 
         private static readonly List<SearchPackage> searchPackages = new List<SearchPackage>()
         {

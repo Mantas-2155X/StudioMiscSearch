@@ -16,7 +16,7 @@ namespace HS2_StudioMiscSearch
     [BepInPlugin(nameof(HS2_StudioMiscSearch), nameof(HS2_StudioMiscSearch), VERSION)]
     public class HS2_StudioMiscSearch : BaseUnityPlugin
     {
-        public const string VERSION = "1.0.0";
+        public const string VERSION = "1.1.0";
 
         private static readonly List<SearchPackage> searchPackages = new List<SearchPackage>()
         {
