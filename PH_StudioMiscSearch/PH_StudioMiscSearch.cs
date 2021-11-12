@@ -17,7 +17,7 @@ namespace PH_StudioMiscSearch
     [BepInPlugin(nameof(PH_StudioMiscSearch), nameof(PH_StudioMiscSearch), VERSION)]
     public class PH_StudioMiscSearch : BaseUnityPlugin
     {
-        public const string VERSION = "1.1.0";
+        public const string VERSION = "1.2.0";
 
         private static readonly List<SearchPackage> searchPackages = new List<SearchPackage>()
         {

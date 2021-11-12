@@ -15,7 +15,7 @@ namespace KKS_StudioMiscSearch
     [BepInPlugin(nameof(KKS_StudioMiscSearch), nameof(KKS_StudioMiscSearch), VERSION)]
     public class KKS_StudioMiscSearch : BaseUnityPlugin
     {
-        public const string VERSION = "1.1.0";
+        public const string VERSION = "1.2.0";
 
         private static readonly List<SearchPackage> searchPackages = new List<SearchPackage>()
         {
